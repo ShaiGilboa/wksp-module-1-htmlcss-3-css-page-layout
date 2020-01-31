@@ -1,0 +1,38 @@
+
+body {
+    margin: 0;
+}
+
+.container {
+    min-height: 100vh;
+    justify-content: center;
+	font-family: 'Bangers', cursive;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    text-align: center;
+    background: black;
+    color: white;
+    text-transform: capitalize;
+    margin:0;
+}
+
+nav {
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.content {
+    text-align: center;
+    text-transform: uppercase;
+}
+
