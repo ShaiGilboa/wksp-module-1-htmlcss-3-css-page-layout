@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+.container {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url('imgs/bg.jpg'); /* you need to specify the path to the file */
+    background-size: cover; /* Use this to have the image cover the full space */
+    background-position: center; /* Use this to center the background image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins', sans-serif;
+}
+
+.contant {
+    color: white;
+    padding-bottom: 35vh;
+    font-size: medium;
+}

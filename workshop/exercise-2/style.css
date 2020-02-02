@@ -1,13 +1,11 @@
 body {
     margin: 0;
+
 }
 
 .container {
     display: grid;
 	font-family: 'Bangers', cursive;
-    grid-template-rows: auto;
-    align-items: center;
-    justify-content: center;
     min-height: 100vh;
 }
 
@@ -15,24 +13,24 @@ p {
     text-transform: capitalize;
     background: black;
     color: white;
-    width: 100%;
+
     margin: 0;
     text-align: center;
     padding:0;
-    position: fixed;
+
 }
 
 .content {
     text-transform: uppercase;
     text-align: center;
+
 }
 
 nav {
-    margin: 0;
-    top:0;
 }
 
 footer {
-    margin: 0;
-    bottom: 0;
+    position: fixed;
+    bottom:0;
+    width: 100%;
 }

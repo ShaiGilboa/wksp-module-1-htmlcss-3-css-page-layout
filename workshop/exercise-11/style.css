@@ -1,13 +1,23 @@
 .header {
-
+  text-align: center;
 }
 
 .facts {
-
+  text-align: left;
+  align-items: center;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  border-spacing: 0;
+  padding:20px 10px 20px 10px;
 }
 
-tr {
+tr:nth-child(even) {
+background-color: grey;
+}
 
+tr:last-child {
+  
 }
 
 th {
@@ -16,7 +26,8 @@ th {
 
 td,
 th {
-
+  border:none;
+  padding: 5px;
 }
 
 h3 {
@@ -24,27 +35,45 @@ h3 {
 }
 
 /* Using CSS grid */
-.links {
+ /* .links {
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: auto auto auto auto;
+  padding:0;
+  grid-column-gap:2vw;
 }
 
 .links > li {
-}
-
+  background-color: rgb(73, 142, 189);
+  border:1px solid white;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}  */
 /* 
     Using Flexbox
     You can comment / uncomment this code using cmd+/
 */
 
-/* 
-.links {
 
+ .links {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
 }
 
 .links > li {
+  background-color: rgb(73, 142, 189);
+  border:1px solid white;
+  width: 24%;
+  text-align: center;
+  padding: 10px 0;
+}   
 
-}
-*/
 
 .links a {
-
+  text-decoration: none;
+  color: white;
+  font-size: small;
 }

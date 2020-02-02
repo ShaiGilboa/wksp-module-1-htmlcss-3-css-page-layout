@@ -7,10 +7,37 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .fast {
+  animation: mymove1 ease-in-out 1s;
+
 }
 
+@keyframes mymove1 {
+  0% {transform: translate(100px); opacity: 0;}
+  100% {transform: translate(0); opacity: 1;}
+}
 .cool {
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px grey;  
+  background: #3d75ca;
+  color: white;
+  font-size: large;
+  text-transform: uppercase;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.cool:hover{
+  animation: snap ease-in-out 1s;
+}
+
+@keyframes snap {
+  0%{}
+  75%{transform: scale(1.2);}
+  90%{transform: scale(0.8);}
+  100%{transform: scale(1);}
 }
