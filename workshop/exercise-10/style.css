@@ -1,26 +1,56 @@
 body {
     margin: 0;
+    padding: 0;
 }
 
 .container {
     display: grid;
     min-height: 100vh;
+    grid-template-areas: 
+        'nav nav nav'
+        'main main main'
+        'footer footer footer';
+    grid-template-rows: 50px auto 100px;
 }
 
-.nav {
+.container > div {
+    width: 100%;
+}
+
+.nav {  
     height: 50px;
     background-color: rebeccapurple;
+    grid-area: nav; 
 }
 
 .aside {
+    display: none;
     background-color: forestgreen;
+    grid-area: aside;
+    width: 25vw;
 }
 
 .main {
-
+    grid-area: main;
+    text-align: center;
+    height: 100%;
 }
 
 .footer {
     height: 100px;
     background-color: midnightblue;
+    grid-area: footer;
+    bottom:0;  
+}
+
+@media screen and (min-width: 768px) {
+    .aside {
+        display: block;
+    }
+    .container {
+        grid-template-areas: 
+        'nav nav nav'
+        'aside main main'
+        'aside footer footer';
+    }
 }

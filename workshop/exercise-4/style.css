@@ -1,0 +1,37 @@
+body {
+    margin:0;
+    font-family: 'poppins', sans-serif;
+}
+
+ul {
+    display: flex;
+    background: #3a3633;
+    color: white;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    margin:0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.apple {
+    display: block;
+}
+
+a:hover {
+    transition: all ease-in-out 0.2s;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+li {
+    padding: 0 5vw;
+}
+
+.word {
+    
+}

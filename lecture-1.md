@@ -115,6 +115,9 @@ Media queries can be used to check many things, such as:
 
 [Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_mediaqueries_ex1)
 
+if we are making a "resposive" the wuery would be `@media screen and (max-width XXpx) {}`
+if it would be mobile first it would be `@media screen and (min-width XXpx) {}`
+
 ---
 
 # Advanced topics
@@ -129,6 +132,8 @@ Media queries can be used to check many things, such as:
 - `:focus`
 - `:checked`
 - `:first-child`
+
+- _`NO SPACE`_ .class:hover {}
 
 [Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_link)  |  [Try it](https://www.w3schools.com/css/tryit.asp?filename=trycss_first-child2)
 
@@ -148,8 +153,17 @@ Media queries can be used to check many things, such as:
 - Translate
 - Rotate
 - Scale
+- trnasition: all linear XXms; `this will make any transition linear over XXms`
 
 [Try it](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_transform) | [Trnasform Generator](https://html-css-js.com/css/generator/transform/)
 
 ---
 
+## css combinators
+
+- adjacent sibling combinator `div + p`
+- general sibling combinator `div ~ p`
+- child combinator `div > p`
+- descendant combinator `div p`
+
+---

@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+
+}
+
+.container {
+    display: grid;
+	font-family: 'Bangers', cursive;
+    min-height: 100vh;
+}
+
+p {
+    text-transform: capitalize;
+    background: black;
+    color: white;
+
+    margin: 0;
+    text-align: center;
+    padding:0;
+
+}
+
+.content {
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+nav {
+}
+
+footer {
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}
